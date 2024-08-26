@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    position: relative;
+}
+.container{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{ 
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.logo{
+    margin: 20px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    transition: 3s;
+}
+.text{
+    color: white;
+    width: 40%;
+
+}
+.text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.text p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.text a{
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+.image{
+    display: flex;
+    width: 30%;
+    
+}
+.image img{
+    width: 180px;
+}
+
+
+.icons{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icons img{
+    width: 40px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.icons img:hover{
+    transform: scale(1.2);
+
+}
